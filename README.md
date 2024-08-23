@@ -14,7 +14,7 @@ This project provides a web application for encrypting and decrypting images usi
 - **Python**: Programming language used for the backend logic.
 - **Streamlit**: Framework for building the web interface.
 - **Cryptography**: Library for handling AES encryption and decryption.
-- **CSS**: For styling the web application.
+
 
 ## Setup and Installation
 
