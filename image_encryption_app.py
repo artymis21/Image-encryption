@@ -5,15 +5,6 @@ from PIL import Image
 import io
 import os
 
-# Load custom CSS
-def load_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-
-# Load CSS
-load_css('styles.css')
-
-
 # Set a constant encryption key (AES-256 key should be 32 bytes)
 CONSTANT_KEY = bytes.fromhex('22cfb6899df21c6560d3f0dd975ee914b1922ca98e4d3ce8cd38a83f05bb825e')
 
